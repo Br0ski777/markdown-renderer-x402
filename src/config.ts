@@ -29,6 +29,32 @@ Do NOT use for raw HTML conversion (no CSS) -- use text_convert_markdown_to_html
         },
         required: ["markdown"],
       },
+      outputSchema: {
+          "type": "object",
+          "properties": {
+            "html": {
+              "type": "string",
+              "description": "Rendered HTML output"
+            },
+            "theme": {
+              "type": "string",
+              "description": "Theme used"
+            },
+            "markdownLength": {
+              "type": "number",
+              "description": "Input markdown length"
+            },
+            "htmlLength": {
+              "type": "number",
+              "description": "Output HTML length"
+            }
+          },
+          "required": [
+            "html",
+            "markdownLength",
+            "htmlLength"
+          ]
+        },
     },
   ],
 };
