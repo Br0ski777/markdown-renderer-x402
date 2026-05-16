@@ -12,7 +12,7 @@
   "remotes": [
     {
       "type": "sse",
-      "url": "https://markdown-renderer-x402-production.up.railway.app/mcp"
+      "url": "https://markdown-renderer.api.klymax402.com/mcp"
     }
   ]
 }
