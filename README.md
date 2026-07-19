@@ -37,7 +37,7 @@ Any x402-aware client ([`@x402/fetch`](https://www.npmjs.com/package/@x402/fetch
 
 | Tool | Method | Path | Price | Description |
 |---|---|---|---|---|
-| `text_render_markdown` | POST | `/api/render` | $0.002 | Render markdown to styled HTML |
+| `text_render_markdown` | POST | `/api/render` | $0.005 | Render markdown to styled HTML |
 
 ### `text_render_markdown`
 
