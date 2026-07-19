@@ -9,7 +9,7 @@ export const API_CONFIG: ApiConfig = {
     {
       method: "POST",
       path: "/api/render",
-      price: "$0.002",
+      price: "$0.005",
       description: "Render markdown to styled HTML",
       toolName: "text_render_markdown",
       toolDescription: `Use this when you need to convert Markdown to a fully styled HTML document with embedded CSS. Returns a complete, display-ready HTML page in JSON.
